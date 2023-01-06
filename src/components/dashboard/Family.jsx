@@ -5,7 +5,49 @@ import SearchIcon from '@mui/icons-material/Search';
 import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import Profilepic from '../../static/images/profile-pic01.jpg'
 
-
+const familyList = [
+    {
+        name:'John Smith',
+        role:'Admin',
+        img:'https://c.staticblitz.com/assets/vite/quote-author-stephen_fluin.92c7c87c.png',
+        icon:<GroupAddIcon />
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/2.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/1.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/3.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/5.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/6.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/7.jpg'
+    },
+    {
+        name:'John Smith',
+        role:'Manager',
+        img:'https://mui.com/static/images/avatar/1.jpg'
+    }
+]
 
 
 function Family() {
@@ -19,161 +61,23 @@ function Family() {
             </Typography>            
         </Typography>
         <Typography component="div">
+
         <List className='family_list onlyfamily_list'>
-            <ListItem sx={{ bgcolor: 'primary' }}>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                     
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Admin" variant="contained" size="small" className="family_list_btn"></ButtonField>
-                <ButtonField variant="contained" size="small" className="family_list_btn" startIcon={<GroupAddIcon />}></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith" />
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic}  alt="User Name">
-                    
-                </Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
-            <ListItem>
-                <ListItemAvatar>
-                <Avatar src={Profilepic} alt="User Name"></Avatar>
-                </ListItemAvatar>
-                <ListItemText primary="John Smith"/>
-                <ButtonField value="Manager" variant="contained" size="small" className="family_list_btn"></ButtonField>
-
-            </ListItem>
+            {
+                familyList.map((item, index) => (
+                    <ListItem>
+                        <ListItemAvatar><Avatar src={item.img}  alt="User Name" sx={{ width: 35, height: 35 }}></Avatar></ListItemAvatar>    
+                        <ListItemText>
+                            <Typography><span>{item.name}</span> {}</Typography> 
+                        </ListItemText>
+                        <ButtonField variant="contained" size="small" color="success" className="family_list_btn" value={item.role}></ButtonField>
+                        {index === 0 ? <ButtonField variant="contained" size="small" color="success" className="family_list_btn family_list_btn1" value={item.icon}></ButtonField> : ''}
+                        
+                    </ListItem>
+                ))    
+            }
         </List>
+
         </Typography>
     </Typography>
   )

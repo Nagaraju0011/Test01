@@ -9,6 +9,7 @@
 
 
 
+
 button{text-transform: capitalize !important;}
 .d-flex{display: flex !important;}
 .align-items-center { align-items: center!important;}
@@ -167,11 +168,14 @@ body h6{font-size: 14px !important; font-weight: bold !important;}
   .family_list.invitation_list li p{font-size: 12px; font-weight: bold;}
   .family_list.invitation_list li p span{font-size: 12px !important; color:#ffc107;}
   .family_list.invitation_list li:first-child{background-color:#dee8ff;}
-  .family_list.invitation_list li button  {min-width: auto !important; text-align: center; height:28px; box-shadow: none; margin-left: 5px; width: 30px;}
+  .family_list.invitation_list li button  {min-width: auto !important; text-align: center; height:30px; box-shadow: none; margin-left: 5px; width: 30px;}
 
 .family_img {
   width: 100%;
 }
+
+.family_list_btn.family_list_btn1{padding: 4px 8px; font-size: 12px;}
+.family_list_btn.family_list_btn1 svg{font-size: 16px;}
 
 .billingadress_form label{display: block;}
 

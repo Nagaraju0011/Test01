@@ -6,7 +6,6 @@ import CheckIcon from '@mui/icons-material/Check';
 import CloseIcon from '@mui/icons-material/Close';
 
 import {TabContext, TabList, TabPanel} from '@mui/lab';
-
 const invitationList = [
     {
         name:'Leslie Alexander',
@@ -82,7 +81,7 @@ function Invitations() {
                             {
                                 invitationList.map((item) => (
                                     <ListItem>
-                                        <ListItemAvatar><Avatar src={item.img}  alt="User Name"></Avatar></ListItemAvatar>    
+                                        <ListItemAvatar><Avatar src={item.img}  alt="User Name" sx={{ width: 35, height: 35 }}></Avatar></ListItemAvatar>    
                                         <ListItemText>
                                         <Typography><span>{item.name}</span> {item.title}</Typography> 
                                         </ListItemText>
